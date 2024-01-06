@@ -20,26 +20,26 @@ const fontInter = Inter({ subsets: ['latin'], variable: '--font-sans' });
 const fontCaveat = Caveat({ subsets: ['latin'], variable: '--font-signature' });
 
 export const metadata = {
-  title: 'Documenso - The Open Source DocuSign Alternative',
+  title: 'Webfork Sign - The Open Source DocuSign Alternative',
   description:
-    'Join Documenso, the open signing infrastructure, and get a 10x better signing experience. Pricing starts at $30/mo. forever! Sign in now and enjoy a faster, smarter, and more beautiful document signing process. Integrates with your favorite tools, customizable, and expandable. Support our mission and become a part of our open-source community.',
+    'Join Webfork Sign, the open signing infrastructure, and get a 10x better signing experience. Sign in now and enjoy a faster, smarter, and more beautiful document signing process. Integrates with your favorite tools, customizable, and expandable. Support our mission and become a part of our open-source community.',
   keywords:
-    'Documenso, open source, DocuSign alternative, document signing, open signing infrastructure, open-source community, fast signing, beautiful signing, smart templates',
-  authors: { name: 'Documenso, Inc.' },
+    'Webfork Sign, open source, DocuSign alternative, document signing, open signing infrastructure, open-source community, fast signing, beautiful signing, smart templates',
+  authors: { name: 'Webfork, LLC.' },
   robots: 'index, follow',
   openGraph: {
-    title: 'Documenso - The Open Source DocuSign Alternative',
+    title: 'Webfork Sign - The Open Source DocuSign Alternative',
     description:
-      'Join Documenso, the open signing infrastructure, and get a 10x better signing experience. Pricing starts at $30/mo. forever! Sign in now and enjoy a faster, smarter, and more beautiful document signing process. Integrates with your favorite tools, customizable, and expandable. Support our mission and become a part of our open-source community.',
+      'Join Webfork Sign, the open signing infrastructure, and get a 10x better signing experience. Sign in now and enjoy a faster, smarter, and more beautiful document signing process. Integrates with your favorite tools, customizable, and expandable. Support our mission and become a part of our open-source community.',
     type: 'website',
     images: [`${process.env.NEXT_PUBLIC_WEBAPP_URL}/opengraph-image.jpg`],
   },
   twitter: {
-    site: '@documenso',
+    site: '@webforkllc',
     card: 'summary_large_image',
     images: [`${process.env.NEXT_PUBLIC_WEBAPP_URL}/opengraph-image.jpg`],
     description:
-      'Join Documenso, the open signing infrastructure, and get a 10x better signing experience. Pricing starts at $30/mo. forever! Sign in now and enjoy a faster, smarter, and more beautiful document signing process. Integrates with your favorite tools, customizable, and expandable. Support our mission and become a part of our open-source community.',
+      'Join Webfork Sign, the open signing infrastructure, and get a 10x better signing experience. Sign in now and enjoy a faster, smarter, and more beautiful document signing process. Integrates with your favorite tools, customizable, and expandable. Support our mission and become a part of our open-source community.',
   },
 };
 
